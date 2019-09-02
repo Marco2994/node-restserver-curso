@@ -11,7 +11,7 @@ const app = express();
 app.get('/usuario', function(req, res) {
     //res.json('get Usuario LOCAL!!!!!');
 
-    let estado = { estado: false }
+    let estado = { estado: true }
 
     let desde = req.query.desde || 0;
     desde = Number(desde);
